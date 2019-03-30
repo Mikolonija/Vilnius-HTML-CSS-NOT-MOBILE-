@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-text {
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.1em;
+    font-family: arial;
+    margin-bottom: 1em;
+    width: 96%;
+}
+
+
+/*COMMON*/
+
+.meniu-text-2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 1em;
+    font-family: arial;
+    margin-bottom: 1em;
+    color: #501B1D;
+}
+
+nav,
+footer {
+    background-color: black;
+    display: block;
+}
+
+.header-color {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 3em;
+}
+
+
+/*HEADER*/
+
+.header-bcg {
+    background-image: url(../img/header/Vilnius.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.webname {
+    font-family: 'Baloo Bhaijaan', cursive;
+    font-size: 4em;
+}
+
+header i {
+    font-size: 8em;
+    color: brown;
+}
+
+.header-text-buttom {
+    padding: .4em;
+    background-color: brown;
+    font-weight: 600;
+    color: aliceblue;
+    font-size: 1.1em;
+    font-family: arial;
+    text-align: center;
+    border-radius: 1em;
+}
+
+.header-text-top {
+    padding: .4em;
+    font-weight: 600;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-family: arial;
+    text-align: left;
+}
+
+
+/*NAV*/
+
+nav ul i {
+    color: brown;
+    font-size: 2em;
+    display: block;
+    margin: auto;
+    padding-bottom: .5em;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 2em;
+    margin: auto;
+    width: 19%;
+}
+
+main {
+    background-color: black;
+}
+
+
+/*SECTION*/
+
+.section-bgr-1 {
+    background: linear-gradient(to bottom, rgba(31, 40, 51, 1) 0%, rgba(0, 0, 0, 1) 13%, rgba(0, 0, 0, 1) 39%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 1) 76%, rgba(0, 0, 0, 1) 90%, rgba(31, 40, 51, 1) 100%);
+}
+
+.section-text {
+    color: aliceblue;
+    font-size: 1.1em;
+    font-family: arial;
+    margin-bottom: 1em;
+    width: 50%;
+    margin: auto;
+}
+
+.section-bgr-2 {
+    background-image: url(../img/article/OldTown.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main section {
+    border-bottom: 1px solid aliceblue;
+}
+
+
+/*ARTICLE*/
+
+img {
+    width: 100%;
+    border-radius: 6em;
+    margin-top: 4.5em;
+    margin-bottom: .5em;
+    opacity: 0.8;
+}
+
+.article-top-text {
+    font-size: 1.5em;
+    font-weight: 1000;
+    color: brown;
+    font-family: 'Varela Round', sans-serif;
+    font-family: Arial;
+}
+
+.article-p-position {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.article-butoom-text {
+    background-color: brown;
+    padding: .4em;
+    border-radius: 1em;
+    font-weight: 900;
+}
+
+.article-butoom-postion {
+    padding-bottom: 2em;
+}
+
+
+/*FOOTER*/
+
+footer li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 2em;
+    /*    margin-left: 12em;*/
+    width: 49%;
+    margin-left: 0.5%;
+}
+
+footer i {
+    font-size: 1.5em;
+    padding: 1em;
+    color: brown;
+}
